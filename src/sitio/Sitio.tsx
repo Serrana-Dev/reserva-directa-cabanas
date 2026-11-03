@@ -312,7 +312,7 @@ export default function Sitio() {
   return (
     <div className="sitio">
       <div className="barra-demo">
-        <p>Demo de {PRODUCTO} para cabañas y complejos. El complejo es inventado y las reservas son de prueba.</p>
+        <p>Demo<span className="demo-detalle"> de {PRODUCTO} para cabañas y complejos. El complejo es inventado y las reservas son de prueba.</span></p>
         <Link to="/admin">Ver el panel del complejo</Link>
       </div>
       <Portada />
