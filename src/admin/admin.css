@@ -1732,6 +1732,10 @@
     text-overflow: ellipsis;
   }
   .superior-detalle {
+    display: none;
+  }
+}
+
 /* ——— Celular: que se sienta una app y no una web achicada ——— */
 html {
   -webkit-tap-highlight-color: transparent;
